@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   }
 
   const yahooUrl =
-    "https://query1.finance.yahoo.com/v10/finance/quoteSummary/" +
+  "https://query2.finance.yahoo.com/v10/finance/quoteSummary/" +
     encodeURIComponent(symbol) +
     "?modules=financialData";
 
